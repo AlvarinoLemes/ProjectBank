@@ -48,11 +48,24 @@ function depositarDinheiro() {
       }
     ])
     .then((answer) => {
+     //criar validação pra ver se existe a conta
+
+
+     //depositar valor na conta, Altera o balance dentro do arquivo .json
+
+
       return menu();
     }).catch((err) => console.log(err));
 }
 
-// if(fs.existsSync(`contas/${nome}.json`)){
+
+//fs.readFile
+//fs.writeFile
+fs.existsSync
+
+
+
+// if(fs.existsSync(`contas/${answer.nomeDaConta}.json`)){
 //   return true;
 // } else {
 //  return false;
